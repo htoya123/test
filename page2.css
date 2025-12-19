@@ -27,7 +27,7 @@ html, body {
     color: white;
     text-align: center;
     padding: 10vh 5vw;
-    font-size: clamp(72px, 18vw, 108px);
+    font-size: clamp(36px, 9vw, 54px);
 }
 
 .hidden-content p {
@@ -35,7 +35,7 @@ html, body {
 }
 
 .heart {
-    font-size: clamp(108px, 24vw, 144px);
+    font-size: clamp(54px, 12vw, 72px);
     display: inline-block;
     margin: 20px;
 }
@@ -71,3 +71,4 @@ html, body {
 .next-btn img:hover {
     transform: scale(1.15);
 }
+
