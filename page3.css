@@ -5,7 +5,7 @@
 
 body {
     margin: 0;
-    background: url("images/bg1p3.jpg") center top / auto 120% no-repeat;
+    background: url("bg1p3.jpg") center top / auto 120% no-repeat;
     color: white;
     height: 100vh;
     display: flex;
@@ -62,3 +62,4 @@ button:hover {
     min-height: 20px;
     font-size: 14px;
 }
+
