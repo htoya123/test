@@ -1,0 +1,64 @@
+* {
+    box-sizing: border-box;
+    font-family: system-ui, sans-serif;
+}
+
+body {
+    margin: 0;
+    background: url("images/bg1p3.jpg") center top / auto 120% no-repeat;
+    color: white;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+#question {
+    color: white;
+    padding: 10px 20px;
+    font-size: clamp(28px, 7vw, 48px);
+    text-align: center;
+    text-shadow:
+            0 0 10px #ff5cff,
+            0 0 20px #ff5cff,
+            0 0 40px #ff0080;
+    margin-bottom: 20px;
+    animation: textPulse 2s infinite alternate,
+    shake 0.15s infinite alternate;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    margin-bottom: 15px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background: #ff2f92;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff4aa3;
+}
+
+#message {
+    margin-top: 15px;
+    min-height: 20px;
+    font-size: 14px;
+}
